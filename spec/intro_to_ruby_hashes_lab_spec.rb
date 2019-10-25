@@ -75,3 +75,33 @@ describe "updating data in a hash" do
   end
 
 end
+
+def new_hash
+
+	test_hash = Hash.new
+end
+
+def my_hash 
+  states = {
+    :newyork => 'NY'
+  }
+end
+
+def pioneer
+  new_hash = {
+    :name => 'Grace Hopper'
+  }
+end
+
+def id_generator
+  new_hash = {
+    :id => 7
+  }
+end
+
+
+def my_hash_creator('Grace Hopper')
+  new_hash = { :name => 'Grace Hopper'
+  }
+  
+end
